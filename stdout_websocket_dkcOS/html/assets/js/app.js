@@ -21,6 +21,7 @@ var unlockcontrol = 85;
 var lockcontrol = 76;
 var capturecontrol = 67;
 var tapcontrol = 84;
+var messagescontrol = 77; //M
 
 
 var zoomincontrol = 221;
@@ -47,6 +48,7 @@ var ctrack = 1;
 var trackwas = 3;
 var trigger=0;
 var mediacontrol=0;
+var displayon = 0;
 
 var ges;
 
@@ -131,6 +133,7 @@ var downcontrol = 83;
 var homecontrol = 72;
 var unlockcontrol = 85;
 var capturecontrol = 67;
+var messagescontrol = 77;
 	
 var tapcontrol= 84;
 
@@ -174,7 +177,7 @@ var tapcontrol= 84;
 
 		  }
 		  else if (-1!=msg.indexOf("GestTwoFingerSlideDown")) {
-			  ges=capturecontrol;
+			  			ges=messagescontrol;
 		  }
 		   else if (-1!=msg.indexOf("GestTwoFingerSlideRight")) {
 			   			   ges=unlockcontrol;
@@ -190,6 +193,17 @@ var tapcontrol= 84;
 		  }
 		else if (-1!=msg.indexOf("GestTwoFingerZoomOut")) {
 			  			   ges=zoomoutcontrol;
+
+		  }
+		else if (-1!=msg.indexOf("GestTwoFingerOneClick")) {
+						if (displayon == 0) {
+		  			   		ges=unlockcontrol;
+							displayon = 1;
+						}
+						else {
+							ges=lockcontrol;
+							displayon = 0;
+						}
 
 		  }
 
@@ -582,15 +596,18 @@ function displaylogic(){
 		
 		if (trigger == upcontrol && mediacontrol == 0) {
 			      console.log('VOL UP');
+				vol++;
 			
 						//$("#block_black").append("<div>Volume Up ▲<br /></div>");
 
-			
+			if (playing) {
+				$('#music' + ctrack).get(0).volume = vol*0.2; //5 levels
+			}
 			
 				for (let i = 0; i < vol; i++) {
 					  $("#block_black").append("<span></span>");
 					}
-			      vol++;
+			      
 			
 			$("#block_black span").animate({
 						"opacity": "1"
@@ -605,8 +622,14 @@ function displaylogic(){
 		}
 		else if (trigger == downcontrol && mediacontrol == 0) {
 			      console.log('VOL Down');
+				vol--;
 			
 			//$("#block_black").append("<div>Volume Down ▼ <br /></div>");
+
+
+			if (playing) {
+				$('#music' + ctrack).get(0).volume = vol*0.2; //5 levels
+			}
 
 			for (let i = 0; i < vol; i++) {
 					  $("#block_black").append("<span></span>");
@@ -616,7 +639,7 @@ function displaylogic(){
 			
 			
 			
-			vol--;
+			
 			
 			$("#block_black span").animate({
 				"opacity": "1"
@@ -629,15 +652,20 @@ function displaylogic(){
 		}
 		else if (trigger == rightcontrol && mediacontrol == 1) {
 			      console.log('VOL UP');
+			      vol++;
 			
 						//$("#block_black").append("<div>Volume Up ▲<br /></div>");
 
-			
+
+			if (playing) {
+				$('#music' + ctrack).get(0).volume = vol*0.2; //5 levels
+			}			
+
 			
 				for (let i = 0; i < vol; i++) {
 					  $("#block_black").append("<span></span>");
 					}
-			      vol++;
+
 			
 			$("#block_black span").animate({
 						"opacity": "1"
@@ -652,18 +680,19 @@ function displaylogic(){
 		}
 		else if (trigger == leftcontrol && mediacontrol == 1) {
 			      console.log('VOL Down');
+				vol--;
 			
 			//$("#block_black").append("<div>Volume Down ▼ <br /></div>");
+
+
+			if (playing) {
+				$('#music' + ctrack).get(0).volume = vol*0.2; //5 levels
+			}
 
 			for (let i = 0; i < vol; i++) {
 					  $("#block_black").append("<span></span>");
 					}
 
-			
-			
-			
-			
-			vol--;
 			
 			$("#block_black span").animate({
 				"opacity": "1"
@@ -734,9 +763,12 @@ function displaylogic(){
 		
 		
 		
-		if (vol<1){
+		if (vol<0){
 			
-			vol=1;
+			vol=0;
+		}
+		else if (vol > 4) {
+			vol=4;
 		}
 		
 		  $('#s_change').get(0).currentTime = 0;
@@ -744,6 +776,55 @@ function displaylogic(){
 			
 			
 	}
+
+	// else if (page == 6) { //START SETTINGS ACTIONS
+	// 	if (trigger == leftcontrol && mediacontrol == 1) {
+	// 		vol--;
+	// 		if (playing) {
+	// 			$('#music' + ctrack).get(0).volume = vol*0.2; //5 levels
+	// 		}
+
+	// 		for (let i = 0; i < vol; i++) {
+	// 				  $("#block_settings").append("<span></span>");
+	// 		}
+
+			
+	// 		$("#block_settings span").animate({
+	// 			"opacity": "1"
+	// 		  }, 500, function (){
+	// 			$("#block_settings span, #block_settings div").animate({
+	// 			"opacity": "0"},100);	
+	// 		});
+	// 	}
+	// 	else if (trigger == rightcontrol && mediacontrol == 1) {
+	// 		vol++:
+	// 		if (playing) {
+	// 			$('#music' + ctrack).get(0).volume = vol*0.2; //5 levels
+	// 		}
+
+	// 		for (let i = 0; i < vol; i++) {
+	// 				  $("#block_settings").append("<span></span>");
+	// 				}
+
+			
+	// 		$("#block_settings span").animate({
+	// 			"opacity": "1"
+	// 		  }, 500, function (){
+	// 			$("#block_settings span, #block_settings div").animate({
+	// 			"opacity": "0"},100);
+				
+				
+	// 		});
+	// 	}
+
+	// 	if (vol<0){
+			
+	// 		vol=0;
+	// 	}
+	// 	else if (vol > 4) {
+	// 		vol=4;
+	// 	}
+	// } // END SETTINGS ACTIONS
 	else if (trigger == lockcontrol) {
      
 		
@@ -1277,6 +1358,17 @@ function displaylogic(){
             page=1;
             block_homeUp();
             console.log('block_homeDown');
+
+        }
+		}
+
+
+		if (trigger == messagescontrol) { // go to Messages
+			
+			if (page!=4){ // GO TO HOME PAGE
+            page=4;
+            block_messages();
+            console.log('block_messages');
 
         }
 		}
