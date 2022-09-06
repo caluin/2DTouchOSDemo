@@ -1,0 +1,6 @@
+2022-09-01 20:46:43.166 [22332] [SPECIAL] -----------------  log4z thread started!   ----------------------------
+2022-09-01 20:46:43.166 [22332] [SPECIAL] logger id=0 key=Main name=Main path=C:\Users\wenhaochen\Downloads\musicplayer\2DTouchGestureGestureOnlyRev2\Log\2022-09-01\ level=1 display=true
+2022-09-01 20:46:43.256 [19384] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM5")
+2022-09-01 20:46:43.260 [12812] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM5
+2022-09-01 20:46:52.250 [19384] [SPECIAL] [CommDaemon.cpp][437] 1111 window[0] CloseDevice("")
+2022-09-01 20:46:52.250 [19384] [SPECIAL] [Stm32FxBoard.cpp][3502] ExePullOutCallback 

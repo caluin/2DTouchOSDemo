@@ -1,0 +1,4 @@
+2022-09-06 16:08:57.545 [13492] [SPECIAL] -----------------  log4z thread started!   ----------------------------
+2022-09-06 16:08:57.545 [13492] [SPECIAL] logger id=0 key=Main name=Main path=C:\Users\wenhaochen\Downloads\stdout_websocket_dkcOS_3D\stdout_websocket_dkcOS\2DTouchGestureGestureOnlyRev2\Log\2022-09-06\ level=1 display=true
+2022-09-06 16:08:57.609 [12012] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM5")
+2022-09-06 16:08:57.609 [12012] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM5

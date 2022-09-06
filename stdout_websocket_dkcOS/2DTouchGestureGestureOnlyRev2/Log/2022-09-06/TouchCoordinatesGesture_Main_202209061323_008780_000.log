@@ -1,0 +1,14 @@
+2022-09-06 13:23:16.769 [6564] [SPECIAL] -----------------  log4z thread started!   ----------------------------
+2022-09-06 13:23:16.769 [6564] [SPECIAL] logger id=0 key=Main name=Main path=C:\Users\wenhaochen\Downloads\musicplayer\2DTouchGestureGestureOnlyRev2\Log\2022-09-06\ level=1 display=true
+2022-09-06 13:23:16.827 [11600] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM5")
+2022-09-06 13:23:16.827 [11600] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM5
+2022-09-06 13:23:19.858 [18184] [SPECIAL] [Stm32FxBoard.cpp][2245] INFO:Board Update Start!
+2022-09-06 13:23:20.003 [11600] [SPECIAL] [CommDaemon.cpp][437] 1111 window[0] CloseDevice("")
+2022-09-06 13:23:20.003 [11600] [SPECIAL] [Stm32FxBoard.cpp][3502] ExePullOutCallback 
+2022-09-06 13:23:20.657 [11600] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM5")
+2022-09-06 13:23:20.657 [11600] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM5
+2022-09-06 13:23:29.030 [11600] [SPECIAL] [CommDaemon.cpp][437] 1111 window[0] CloseDevice("")
+2022-09-06 13:23:29.030 [11600] [SPECIAL] [Stm32FxBoard.cpp][3502] ExePullOutCallback 
+2022-09-06 13:23:29.779 [11600] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM5")
+2022-09-06 13:23:29.779 [11600] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM5
+2022-09-06 13:23:30.490 [18184] [SPECIAL] [Stm32FxBoard.cpp][2340] INFO:Board Updata End!

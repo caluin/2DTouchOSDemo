@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bulit-In Control - HoloClip</title>
+<link href="assets/css/all.css" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+
+	
+<script src="/socket.io/socket.io.js"></script>
+
+
+<script src='assets/js/jquery-3.6.0.min.js'></script> 
+
+</head>
+<body>
+
+
+
+<button id="connect-button" type="button" disabled>🔌 </button>
+<div id="output"></div>
+
+  
+
+<script>
+
+      var socket = io();
+      var messages = document.getElementById('messages');
+      var form = document.getElementById('form');
+      var input = document.getElementById('input');
+      var video = null;
+      var canvas = null;
+      var cphoto = null;
+      var startbutton = null;
+      var width = 320;    // We will scale the photo width to this
+      var height = 0;     // This will be computed based on the input stream
+	
+	
+	
+	
+var start_time;
+var timediff;
+
+var startTime, endTime , timeDiff;
+
+function start() {
+  startTime = performance.now();
+};
+
+function end() {
+  endTime = performance.now();
+   timeDiff = endTime - startTime; //in ms 
+
+  console.log(timeDiff + " ms");
+}
+
+
+
+    </script> 
+    
+    
+
+    <script src='assets/js/app.js'></script>
+
+
+  
+  
+
+<div id="ux">
+    <div class="note">
+        <h1>Directions</h1>
+
+		
+		
+        <ul>
+          <li>Unlock - Two Finger swipe (U) </li>
+          <li>Home - Two Finger  Swipe Up (H)</li>
+          <li>Nav - Swipe Up (W)</li>
+          <li>Nav - Swipe Down (S)</li>
+          <li>Nav - Swipe Right (D)</li>
+          <li>Nav - Swipe Left (A)</li>
+          <li>Capture - Two Finger  Swipe Down (C)</li>
+
+          <li>Select - Tap (T)</li>
+        </ul>
+        <div class="instructions"></div>
+
+    </div>
+<div class="button" id="mediacontrol">Track / Vol Control </div>
+<div class="button" id="hdirection">Reverse R/L   </div>
+<div class="button" id="vdirection">Reverse Up/Down   </div>
+<div class="button" id="timeout"><span id="seconds">#</span> sec screen timeout</div>
+</div>
+
+
+<div id="masktop" class="masking"></div>
+<div id="maskleft" class="masking"></div>
+<div id="maskright" class="masking"></div>
+<div id="maskbottom" class="masking"></div>
+
+<div class="block" id="block_menu">
+  <div id="innerblock"> <div id="selector" ></div>  </div>
+</div>
+
+<div class="block" id="block_home"></div>
+<div class="block" id="block_clock"><span class="digital-clock"></span></div>
+<div class="block" id="block_capture"></div>
+<div class="block paused1" id="block_music"></div>
+<div class="block" id="block_messages"></div>
+<div class="block" id="block_reminders"></div>
+<div class="block" id="block_settings"></div>
+
+
+
+<div class="block" id="block_v">
+  <div id="vinnerblock"> <div id="vselector" ></div>  </div>
+</div>
+
+<div id="block_black">
+	
+	
+	
+	
+	</div>
+
+<!--
+<div id="key">Key</div>
+<div class="hposition"></div>
+<div class="hpositionbg"></div>
+<div class="vposition"></div>
+<div class="vpositionbg"></div>
+
+-->
+<audio controls id="photo">
+  <source src="assets/cam.mp3" type="audio/mpeg">
+</audio>
+<audio controls id="s_change"> <source src="assets/change.mp3" type="audio/mpeg"> </audio>
+<audio controls id="s_changel"> <source src="assets/changel.mp3" type="audio/mpeg"> </audio>
+<audio controls id="s_changer"> <source src="assets/changer.mp3" type="audio/mpeg"> </audio>
+<audio controls id="music1"> <source src="assets/music1.mp3" type="audio/mpeg"> </audio>
+<audio controls id="music2"> <source src="assets/music2.mp3" type="audio/mpeg"> </audio>
+<audio controls id="music3"> <source src="assets/music3.mp3" type="audio/mpeg"> </audio>
+<audio controls id="video"> <source src="assets/recstart.wav" type="audio/mpeg"> </audio>
+
+<audio controls id="s_select">
+  <source src="assets/selected.mp3" type="audio/mpeg">
+</audio>
+<audio controls id="s_back">
+  <source src="assets/back.mp3" type="audio/mpeg">
+</audio>
+<video autoplay="true" id="videoElement"></video>
+<!--	<canvas id="canvas">  </canvas>-->
+
+<!--<video autoplay="true"  id="videoElement2" ></video>-->
+
+
+<script type="text/javascript">
+
+var video = document.querySelector("#videoElement");
+
+
+function handleSuccess(stream) {
+  video.srcObject = stream;
+}
+
+if (navigator.mediaDevices.getUserMedia) {
+
+
+
+let text;
+//if (confirm("LIVE VIDEO?") == true) {
+  navigator.mediaDevices.getUserMedia({ video: true })
+    .then(function (stream) {
+      video.srcObject = stream;
+    })
+    .catch(function (err0r) {
+      console.log("Something went wrong!");
+    });
+  
+//} 
+
+}
+
+
+	
+	
+	
+	$( document ).ready(function() {
+		
+
+
+/*
+
+	    canvas = document.getElementById('canvas');
+
+	
+	
+	
+		
+	video = document.getElementById('videoElement');
+    canvas = document.getElementById('canvas');
+    cphoto = document.getElementById('cphoto');
+		
+        height = video.videoHeight / (video.videoWidth/width);
+      
+        // Firefox currently has a bug where the height can't be read from
+        // the video, so we will make assumptions if this happens.
+      
+        if (isNaN(height)) {
+          height = width / (4/3);
+        }
+      
+        video.setAttribute('width', width);
+        video.setAttribute('height', height);
+        canvas.setAttribute('width', width);
+        canvas.setAttribute('height', height);
+        streaming = true;
+	
+		
+	*/	
+	
+	
+
+});
+	
+	
+	
+	function takepicture() {
+    var context = canvas.getContext('2d');
+    if (width && height) {
+      canvas.width = width;
+      canvas.height = height;
+      context.drawImage(video, 0, 0, width, height);
+    
+      var data = canvas.toDataURL('image/png');
+      cphoto.setAttribute('src', data);
+    } else {
+      clearphoto();
+    }
+  }
+
+	
+	
+	
+	 function clearphoto() {
+    var context = canvas.getContext('2d');
+    context.fillStyle = "#AAA";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
+    var data = canvas.toDataURL('image/png');
+    cphoto.setAttribute('src', data);
+  }
+</script>
+	
+	
+	<div id="cphoto"></div>
+<!--	 <canvas id="canvas">  </canvas> -->
+
+
+
+</body>
+</html>

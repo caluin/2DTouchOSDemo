@@ -1,0 +1,4 @@
+2022-08-23 10:38:18.333 [9792] [SPECIAL] -----------------  log4z thread started!   ----------------------------
+2022-08-23 10:38:18.333 [9792] [SPECIAL] logger id=0 key=Main name=Main path=C:\Users\tester\Desktop\media_player_nan\stdout_websocket_musicplayer\2DTouchGestureGestureOnlyRev2\Log\2022-08-23\ level=1 display=true
+2022-08-23 10:38:18.564 [7480] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM4")
+2022-08-23 10:38:18.564 [7480] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM4
