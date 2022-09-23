@@ -1,1 +1,0 @@
-[ID,X,Y,SIZE][ 0, 1241,  170,  103] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]

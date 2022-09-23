@@ -1,0 +1,179 @@
+Finger touched, detecting gesture...
+No Gesture Detected!
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(541,56), End(1137,95)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1515,158), End(521,174)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(599,98), End(1416,104)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(612,98), End(1344,107)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1393,105), End(596,135)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(841,91), End(1348,101)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1520,137), End(493,164)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1434,75), End(190,69)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1201,96), End(251,66)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerOneClick,ID = 15, Start(959,91), End(959,91)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideUp,ID = 15, Start(980,120), End(980,14)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(494,91), End(1473,109)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1397,115), End(160,61)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(985,93), End(171,38)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(304,45), End(1343,121)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1143,141), End(114,37)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1179,122), End(296,69)]
+Finger Lifted.
+
+

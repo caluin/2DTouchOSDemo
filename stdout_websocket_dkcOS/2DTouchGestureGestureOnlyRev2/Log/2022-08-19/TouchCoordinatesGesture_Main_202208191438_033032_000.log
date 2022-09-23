@@ -1,4 +1,0 @@
-2022-08-19 14:38:00.129 [24356] [SPECIAL] -----------------  log4z thread started!   ----------------------------
-2022-08-19 14:38:00.144 [24356] [SPECIAL] logger id=0 key=Main name=Main path=C:\Users\wenhaochen\Downloads\GtmLogicalLayerGetReportDataCSharpExample-2218\bin\Release\Log\2022-08-19\ level=1 display=true
-2022-08-19 14:38:00.243 [11528] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM5")
-2022-08-19 14:38:00.245 [36300] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM5

@@ -1,2 +1,0 @@
-2022-08-22 14:16:03.912 [16760] [SPECIAL] [CommDaemon.cpp][531] 5555 window[0] OpenDevice[0]("\\.\COM5")
-2022-08-22 14:16:03.912 [16760] [SPECIAL] [Stm32FxBoard.cpp][3496] ExePullInCallback \\.\COM5

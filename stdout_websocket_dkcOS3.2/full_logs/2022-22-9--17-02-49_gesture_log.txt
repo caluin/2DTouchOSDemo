@@ -1,0 +1,26 @@
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideLeft,ID = 15, Start(1439,40), End(1439,191)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1199,98), End(250,53)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideLeft,ID = 15, Start(1308,121), End(96,60)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+No Gesture Detected!
+Finger Lifted.
+
+

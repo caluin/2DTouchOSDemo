@@ -1,0 +1,146 @@
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(395,66), End(1415,33)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(340,95), End(340,191)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(477,82), End(1483,104)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(535,69), End(1468,79)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerOneClick,ID = 15, Start(1275,91), End(1275,91)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = GestSingleFingerH-
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Realtime Gesture
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = GestSingleFingerH+
+Hand Up Gesture Type = RealTimeGesture
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(759,0), End(759,14)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(572,43), End(572,10)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(111,40), End(1443,61)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideLeft,ID = 15, Start(1204,106), End(1204,90)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(411,51), End(411,127)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(588,136), End(588,139)]
+Finger Lifted.
+
+

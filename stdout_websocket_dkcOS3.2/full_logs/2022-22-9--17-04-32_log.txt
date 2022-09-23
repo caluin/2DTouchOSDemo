@@ -1,0 +1,218 @@
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,  476,   95,  255] [ 1,  204,   67,  112] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,  481,   95,  255] [ 1,  209,   68,  117] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[10,1,255]
+[ID,X,Y,SIZE][ 0,  498,   97,  255] [ 1,  226,   72,  136] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[34,6,255]
+[ID,X,Y,SIZE][ 0,  540,   99,  255] [ 1,  265,   85,  159] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[81,15,255]
+[ID,X,Y,SIZE][ 0,  604,  102,  255] [ 1,  323,  104,  183] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[122,22,255]
+[ID,X,Y,SIZE][ 0,  690,  105,  250] [ 1,  398,  125,  206] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[161,24,255]
+[ID,X,Y,SIZE][ 0,  787,  107,  243] [ 1,  482,  140,  209] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[181,17,255]
+[ID,X,Y,SIZE][ 0,  897,  111,  228] [ 1,  580,  149,  196] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[208,13,255]
+[ID,X,Y,SIZE][ 0, 1016,  117,  202] [ 1,  694,  151,  180] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[233,8,255]
+[ID,X,Y,SIZE][ 0, 1143,  127,  162] [ 1,  819,  153,  161] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[252,12,255]
+[ID,X,Y,SIZE][ 0, 1208,  134,  162] [ 1,  951,  155,  130] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[192,9,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[67,3,255]
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(476,95), End(476,134)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0, 1296,  157,  147] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0, 1272,  157,  148] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[232,0,255]
+[ID,X,Y,SIZE][ 0, 1199,  158,  150] [ 1, 1405,  147,  168] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[183,1,255]
+[ID,X,Y,SIZE][ 0, 1061,  160,  148] [ 1, 1390,  146,  177] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[114,1,255]
+[ID,X,Y,SIZE][ 0,  901,  164,  150] [ 1, 1348,  144,  194] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[87,2,255]
+[ID,X,Y,SIZE][ 0,  741,  171,  162] [ 1, 1252,  139,  202] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[33,2,255]
+[ID,X,Y,SIZE][ 0,  580,  173,  156] [ 1, 1115,  134,  218] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[2,253,255]
+[ID,X,Y,SIZE][ 0,  429,  155,  110] [ 1,  948,  129,  236] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[2,233,255]
+[ID,X,Y,SIZE][ 0,  429,  155,  110] [ 1,  777,  123,  240] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,250,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,242,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,239,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[167,248,255]
+Hand Up Gesture Type = GestTwoFingerSlideLeft,ID = 15, Start(1296,157), End(1296,155)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,  796,    7,  118] [ 1,  514,   58,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[127,230,255]
+[ID,X,Y,SIZE][ 0,  804,    8,  129] [ 1,  519,   60,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[13,3,255]
+[ID,X,Y,SIZE][ 0,  825,   13,  159] [ 1,  539,   63,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[41,8,255]
+[ID,X,Y,SIZE][ 0,  878,   26,  195] [ 1,  591,   74,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[105,24,255]
+[ID,X,Y,SIZE][ 0,  957,   45,  212] [ 1,  672,   88,  243] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[160,33,255]
+[ID,X,Y,SIZE][ 0, 1059,   69,  206] [ 1,  776,  105,  218] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[206,41,255]
+[ID,X,Y,SIZE][ 0, 1168,   94,  182] [ 1,  886,  121,  191] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[219,41,255]
+[ID,X,Y,SIZE][ 0, 1281,  119,  128] [ 1,  999,  136,  159] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[226,40,255]
+[ID,X,Y,SIZE][ 0, 1336,  130,  128] [ 1, 1114,  151,  126] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[170,26,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[113,12,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[55,6,255]
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(796,7), End(796,130)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0, 1286,  185,   64] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0, 1281,  185,   67] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[251,0,255]
+[ID,X,Y,SIZE][ 0, 1265,  185,   70] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[240,0,255]
+[ID,X,Y,SIZE][ 0, 1226,  185,   73] [ 1, 1479,  186,   70] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[217,0,255]
+[ID,X,Y,SIZE][ 0, 1171,  185,   76] [ 1, 1473,  186,   85] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[195,0,255]
+[ID,X,Y,SIZE][ 0, 1101,  186,   79] [ 1, 1455,  184,   99] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[168,255,255]
+[ID,X,Y,SIZE][ 0, 1014,  187,   80] [ 1, 1409,  180,  111] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[123,253,255]
+[ID,X,Y,SIZE][ 0,  904,  191,   82] [ 1, 1336,  176,  123] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[73,0,255]
+[ID,X,Y,SIZE][ 0,  771,  191,   93] [ 1, 1237,  171,  137] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[30,251,255]
+[ID,X,Y,SIZE][ 0,  639,  191,  106] [ 1, 1123,  166,  146] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[15,251,255]
+[ID,X,Y,SIZE][ 0,  503,  191,   93] [ 1,  992,  161,  171] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[2,251,255]
+[ID,X,Y,SIZE][ 0,  503,  191,   93] [ 1,  847,  157,  195] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,252,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,247,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,238,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[171,241,255]
+Hand Up Gesture Type = GestTwoFingerSlideLeft,ID = 15, Start(1286,185), End(1286,191)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,  917,  124,  222] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,  888,  125,  227] [ 1, 1145,   96,  222] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[227,1,255]
+[ID,X,Y,SIZE][ 0,  804,  128,  241] [ 1, 1131,   95,  222] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[158,2,255]
+[ID,X,Y,SIZE][ 0,  654,  133,  248] [ 1, 1090,   93,  229] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[88,3,255]
+[ID,X,Y,SIZE][ 0,  498,  124,  209] [ 1,  995,   92,  242] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[34,246,255]
+[ID,X,Y,SIZE][ 0,  321,   91,  142] [ 1,  858,   90,  248] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[2,221,255]
+[ID,X,Y,SIZE][ 0,  321,   91,  142] [ 1,  690,   85,  234] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,251,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,245,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,245,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[169,253,255]
+Hand Up Gesture Type = GestTwoFingerSlideLeft,ID = 15, Start(917,124), End(917,91)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,  624,   58,  240] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,  651,   60,  235] [ 1,  458,  104,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[27,2,255]
+[ID,X,Y,SIZE][ 0,  722,   67,  242] [ 1,  469,  107,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[82,10,255]
+[ID,X,Y,SIZE][ 0,  852,   79,  247] [ 1,  498,  113,  247] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[156,18,255]
+[ID,X,Y,SIZE][ 0,  992,   96,  242] [ 1,  569,  123,  220] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[198,27,255]
+[ID,X,Y,SIZE][ 0, 1139,  116,  221] [ 1,  674,  133,  192] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[232,30,255]
+[ID,X,Y,SIZE][ 0, 1295,  140,  182] [ 1,  807,  143,  166] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[254,34,255]
+[ID,X,Y,SIZE][ 0, 1434,  165,  118] [ 1,  945,  153,  133] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[254,35,255]
+[ID,X,Y,SIZE][ 0, 1434,  165,  118] [ 1, 1086,  165,   96] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[127,12,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[69,6,255]
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(624,58), End(624,165)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,  986,   78,  255] [ 1,  617,  126,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,211,255]
+[ID,X,Y,SIZE][ 0,  985,   78,  255] [ 1,  618,  127,  250] [ 2, 1372,   75,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,1,255]
+[ID,X,Y,SIZE][ 0,  984,   79,  255] [ 1,  621,  127,  252] [ 2, 1372,   75,  253] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[2,1,255]
+[ID,X,Y,SIZE][ 0,  984,   80,  255] [ 1,  625,  126,  253] [ 2, 1374,   76,  248] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[6,1,255]
+[ID,X,Y,SIZE][ 0,  984,   81,  255] [ 1,  629,  122,  254] [ 2, 1375,   77,  245] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[5,254,255]
+[ID,X,Y,SIZE][ 0,  982,   82,  245] [ 1,  632,  117,  244] [ 2, 1377,   77,  242] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[3,252,255]
+[ID,X,Y,SIZE][ 0,  982,   83,  235] [ 1,  637,  112,  243] [ 2, 1379,   77,  232] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[7,252,255]
+[ID,X,Y,SIZE][ 0,  987,   83,  194] [ 1,  648,  104,  185] [ 2, 1384,   77,  217] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[21,248,255]
+[ID,X,Y,SIZE][ 0,  993,   81,  194] [ 1,  656,   99,  185] [ 2, 1391,   76,  161] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[21,248,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[6,253,255]
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,  476,   43,  222] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,  503,   47,  230] [ 1,  326,   58,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[27,4,255]
+[ID,X,Y,SIZE][ 0,  564,   53,  242] [ 1,  337,   62,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[72,10,255]
+[ID,X,Y,SIZE][ 0,  694,   64,  243] [ 1,  366,   70,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[156,19,255]
+[ID,X,Y,SIZE][ 0,  835,   74,  249] [ 1,  435,   85,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[196,25,255]
+[ID,X,Y,SIZE][ 0,  982,   84,  252] [ 1,  536,  100,  254] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[228,25,255]
+[ID,X,Y,SIZE][ 0, 1135,   95,  248] [ 1,  664,  113,  239] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[254,24,255]
+[ID,X,Y,SIZE][ 0, 1298,  107,  226] [ 1,  801,  121,  228] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[254,20,255]
+[ID,X,Y,SIZE][ 0, 1439,  123,  161] [ 1,  944,  129,  206] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[254,24,255]
+[ID,X,Y,SIZE][ 0, 1439,  123,  161] [ 1, 1088,  137,  175] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[127,8,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[127,10,255]
+[ID,X,Y,SIZE][255,    0,    0,    0] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[67,5,255]
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(476,43), End(476,123)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,   59,   79,   41] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,   64,   78,   42] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[5,255,255]
+[ID,X,Y,SIZE][ 0,   64,   78,   42] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,   95,   78,   38] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[31,0,255]
+[ID,X,Y,SIZE][ 0,   95,   78,   38] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 1,  833,  191,   84] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 1,  860,  191,   73] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[27,0,255]
+[ID,X,Y,SIZE][ 1,  934,  191,   55] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[74,0,255]
+[ID,X,Y,SIZE][ 1, 1032,  191,   55] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[98,0,255]
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(833,191), End(1032,191)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0, 1014,   93,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0, 1039,   92,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[25,255,255]
+[ID,X,Y,SIZE][ 0, 1115,   92,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[76,0,255]
+[ID,X,Y,SIZE][ 0, 1262,   94,  255] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[127,2,255]
+[ID,X,Y,SIZE][ 0, 1404,   98,  187] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[127,4,255]
+[ID,X,Y,SIZE][ 0, 1404,   98,  187] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+Hand Up Gesture Type = GestSingleFingerSlideRight,ID = 15, Start(1014,93), End(1404,98)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0, 1140,   77,  255] [ 1,  818,  108,  106] [ 2,  479,  123,  239] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,235,255]
+[ID,X,Y,SIZE][ 0, 1141,   78,  255] [ 1,  818,  107,  180] [ 2,  479,  123,  244] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[1,0,255]
+[ID,X,Y,SIZE][ 0, 1141,   78,  255] [ 1,  816,  106,  215] [ 2,  478,  123,  249] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[253,255,255]
+[ID,X,Y,SIZE][ 0, 1141,   80,  255] [ 1,  813,  105,  235] [ 2,  477,  121,  252] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[252,255,255]
+[ID,X,Y,SIZE][ 0, 1140,   80,  255] [ 1,  811,  104,  245] [ 2,  475,  118,  253] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[251,252,255]
+[ID,X,Y,SIZE][ 0, 1140,   80,  254] [ 1,  809,  103,  250] [ 2,  473,  115,  254] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[252,252,255]
+[ID,X,Y,SIZE][ 0, 1139,   80,  252] [ 1,  808,  101,  252] [ 2,  472,  111,  254] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[253,250,255]
+[ID,X,Y,SIZE][ 0, 1139,   79,  239] [ 1,  810,   99,  241] [ 2,  473,  108,  254] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[3,250,255]
+[ID,X,Y,SIZE][ 0, 1140,   75,  181] [ 1,  815,   97,  204] [ 2,  476,  104,  254] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[9,246,255]
+[ID,X,Y,SIZE][ 0, 1144,   69,  181] [ 1,  821,   95,  204] [ 2,  482,  102,  254] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[16,246,255]
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,   28,   77,   36] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[129,8,255]
+[ID,X,Y,SIZE][ 0,   30,   77,   38] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[2,0,255]
+[ID,X,Y,SIZE][ 0,   30,   77,   41] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,   33,   77,   44] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[3,0,255]
+[ID,X,Y,SIZE][ 0,   38,   79,   48] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[5,2,255]
+[ID,X,Y,SIZE][ 0,   43,   80,   51] [ 1,  441,   34,  129] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[5,1,255]
+[ID,X,Y,SIZE][ 0,   47,   80,   54] [ 1,  442,   34,  148] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[5,0,255]
+[ID,X,Y,SIZE][ 0,   49,   80,   55] [ 1,  443,   36,  174] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[3,2,255]
+[ID,X,Y,SIZE][ 0,   51,   80,   57] [ 1,  445,   39,  201] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[4,3,255]
+[ID,X,Y,SIZE][ 0,   53,   80,   58] [ 1,  447,   42,  222] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[4,3,255]
+[ID,X,Y,SIZE][ 0,   55,   79,   59] [ 1,  449,   46,  237] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[4,3,255]
+[ID,X,Y,SIZE][ 0,   58,   80,   59] [ 1,  452,   48,  246] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[6,3,255]
+[ID,X,Y,SIZE][ 0,   60,   80,   58] [ 1,  458,   49,  250] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[8,1,255]
+[ID,X,Y,SIZE][ 0,   66,   82,   53] [ 1,  468,   50,  252] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[16,3,255]
+[ID,X,Y,SIZE][ 0,   66,   82,   53] [ 1,  487,   50,  253] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[19,0,255]
+[ID,X,Y,SIZE][ 2,  359,   80,  255] [ 1,  519,   49,  241] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[32,255,255]
+[ID,X,Y,SIZE][ 2,  368,   82,  255] [ 1,  566,   45,  210] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[56,254,255]
+[ID,X,Y,SIZE][ 2,  393,   85,  255] [ 1,  632,   37,  173] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[91,251,255]
+[ID,X,Y,SIZE][ 2,  452,   88,  255] [ 1,  718,   26,  142] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[145,248,255]
+[ID,X,Y,SIZE][ 2,  544,   89,  255] [ 1,  824,   14,  114] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[198,245,255]
+[ID,X,Y,SIZE][ 2,  664,   87,  255] [ 1,  948,    3,   83] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[244,243,255]
+[ID,X,Y,SIZE][ 2,  800,   81,  255] [ 1, 1089,    0,   59] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[254,247,255]
+[ID,X,Y,SIZE][ 2,  950,   72,  244] [ 1, 1165,    0,   59] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[203,247,255]
+[ID,X,Y,SIZE][ 2, 1112,   62,  203] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[127,246,255]
+[ID,X,Y,SIZE][ 2, 1196,   58,  203] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[84,252,255]
+Hand Up Gesture Type = GestTwoFingerSlideRight,ID = 15, Start(28,77), End(28,82)]
+Finger Lifted.
+
+
+Finger touched, detecting gesture...
+[ID,X,Y,SIZE][ 0,  530,  149,  139] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+[ID,X,Y,SIZE][ 0,  526,  138,  197] [ 1,  866,   84,  208] [ 2, 1225,   86,  235] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[252,245,255]
+[ID,X,Y,SIZE][ 0,  526,  134,  226] [ 1,  866,   83,  231] [ 2, 1225,   86,  235] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,251,255]
+[ID,X,Y,SIZE][ 0,  522,  123,  240] [ 1,  867,   82,  243] [ 2, 1224,   87,  233] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[252,245,255]
+[ID,X,Y,SIZE][ 0,  520,  118,  247] [ 1,  868,   81,  249] [ 2, 1224,   87,  230] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[255,250,255]
+[ID,X,Y,SIZE][ 0,  519,  115,  251] [ 1,  869,   81,  252] [ 2, 1223,   87,  226] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[255,253,255]
+[ID,X,Y,SIZE][ 0,  517,  111,  253] [ 1,  869,   80,  251] [ 2, 1222,   86,  220] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[253,250,255]
+[ID,X,Y,SIZE][ 0,  516,  108,  254] [ 1,  868,   78,  237] [ 2, 1222,   85,  205] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[254,250,255]
+[ID,X,Y,SIZE][ 0,  520,  103,  254] [ 1,  868,   72,  197] [ 2, 1222,   82,  163] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[4,242,255]
+[ID,X,Y,SIZE][ 0,  530,   99,  204] [ 1,  870,   66,  197] [ 2, 1223,   78,  163] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[13,242,255]
+[ID,X,Y,SIZE][ 0,  530,   99,  204] RealTime Gesture ID1[0], ID2[0], Gesture Type[4],[0,0,255]
+Hand Up Gesture Type = PalmTouch
+Finger Lifted.
+
+
