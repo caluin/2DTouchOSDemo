@@ -30,6 +30,7 @@ var zoomincontrol = 221;
 var zoomoutcontrol = 219;
 
 var vol = 3;
+var bigstep = false;
 
 
 var mode = 0;
@@ -155,6 +156,8 @@ $(function () {
     if (-1 != msg.indexOf("Hand Up Gesture Type = GestSingleFingerH+")) {
 		//if (flowcount>flowcontrol){
 				ges = rightcontrol;
+				bigstep=false;
+
 		//		flowcount=0;
 		//}else{
 		//	ges = "";
@@ -165,6 +168,7 @@ $(function () {
 		
 		//if (flowcount>flowcontrol){
 				ges = leftcontrol;
+		bigstep=false;
 		//		flowcount=0;
 		//}else{
 		//	ges = "";
@@ -173,13 +177,30 @@ $(function () {
 		//flowcount++;
 		
     } else if (-1 != msg.indexOf("Hand Up Gesture Type = GestSingleFingerV-")) {
+				bigstep=false;
+
       ges = downcontrol;
 
     } else if (-1 != msg.indexOf("Hand Up Gesture Type = GestSingleFingerV+")) {
+				bigstep=false;
+
       ges = upcontrol;
     }
 
 
+	  // old 
+	  
+	  else if (-1 != msg.indexOf("GestSingleFingerSlideRight") && sleeping) {
+      ges = rightcontrol;
+		  bigstep=true;
+		  
+    } else if (-1 != msg.indexOf("GestSingleFingerSlideLeft") && sleeping) {
+      ges = leftcontrol;
+		  bigstep=true;
+    }
+	  
+	  
+	  
     // OLD
     else if (-1 != msg.indexOf("GestSingleFingerSlideRight") && !sleeping) {
       ges = rightcontrol;
@@ -720,23 +741,17 @@ function displaylogic() {
         "opacity": "1"
       }, 11);
 
-/*
-      if (vol == 8) {
-        vol = 8;
-        maxout = true;
-      } else if (vol == 9) {
-        vol = 8;
-        maxout = true;
-      } else {
-        maxout = false;
-        vol++;
-      }
-	  */ 
+
+		
+		if (bigstep){ 
+			vol=vol+2;
+		}
+		
 		
 		if (vol == maxval) {
         vol = maxval;
         maxout = true;
-      } else if (vol == maxval+1) {
+      } else if ((vol == maxval+1)|| (vol > (maxval+1)) ) {
         vol = maxval;
         maxout = true;
       } else {
@@ -751,13 +766,19 @@ function displaylogic() {
 
 
 
-      for (let i = 0; i < vol; i++) {
-        if (!maxout) {
-          $("#block_black").append("<span></span>");
-        } else {
-          $("#block_black").append('<span class="maxout"></span>');
-        }
-      }
+		
+		
+		bigstep=false;
+		
+		for (let i = 0; i < vol; i++) {
+				if (!maxout) {
+				  $("#block_black").append("<span></span>");
+				} else {
+				  $("#block_black").append('<span class="maxout"></span>');
+				}
+			  }
+		
+      
 
 
 
@@ -768,11 +789,16 @@ function displaylogic() {
       }, 11);
       console.log('VOL Down  / mediacontrol =1');
 
+		
+		if (bigstep){ 
+			vol=vol-2;
+		}
+		
 
       if (vol == 1) {
         vol = 1;
         maxout = true;
-      } else if (vol == 0) {
+      } else if ((vol == 0) ||  (vol < 0)) {
         vol = 1;
         maxout = true;
       } else {
@@ -780,15 +806,19 @@ function displaylogic() {
         vol--;
       }
 
-
-      for (let i = 0; i < vol; i++) {
-        if (!maxout) {
-          $("#block_black").append("<span></span>");
-        } else {
-          $("#block_black").append('<span class="maxout"></span>');
-        }
-      }
-
+		
+		
+		
+		for (let i = 0; i < vol; i++) {
+							if (!maxout) {
+							  $("#block_black").append("<span></span>");
+							} else {
+							  $("#block_black").append('<span class="maxout"></span>');
+							}
+						  }
+		
+		
+		
 
     } else if (trigger == rightcontrol && mediacontrol == 0) {
 				// swipe right as skip 
