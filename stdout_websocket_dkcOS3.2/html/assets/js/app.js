@@ -219,17 +219,17 @@ $(function () {
     } else if (-1 != msg.indexOf("GestSingleFingerOneClick")) {
       ges = tapcontrol;
 
-    } else if (-1 != msg.indexOf("GestSingleFingerDoubleClick")) {} else if (-1 != msg.indexOf("GestSingleFingerTripleClick")) {} else if (-1 != msg.indexOf("GestTwoFingerSlideUp")) {
+    } else if (-1 != msg.indexOf("GestSingleFingerTripleClick")) {} else if (-1 != msg.indexOf("GestTwoFingerOneClick")) {
 
       ges = homecontrol;
 
     } else if (-1 != msg.indexOf("GestTwoFingerSlideDown")) {
       ges = capturecontrol;
-    } else if (-1 != msg.indexOf("GestTwoFingerSlideRight") && sleeping) {
+    } else if ((-1 != msg.indexOf("GestSingleFingerDoubleClick")) && sleeping) {
       ges = unlockcontrol;
 				justlocked=false;
 
-    } else if ((-1 != msg.indexOf("GestTwoFingerSlideLeft") || -1 != msg.indexOf("Hand Up Gesture Type = PalmTouch"))&& !sleeping) {
+    } else if ((-1 != msg.indexOf("GestSingleFingerDoubleClick") || -1 != msg.indexOf("Hand Up Gesture Type = PalmTouch"))&& !sleeping) {
       ges = lockcontrol;
 		console.log("just locked");
 		justlocked=true;
